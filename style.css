@@ -43,6 +43,11 @@ h1 {
   text-align: center;
 }
 
+#app img {
+  max-width: 500px;
+  max-height: 500px;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
