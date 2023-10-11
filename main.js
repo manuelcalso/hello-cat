@@ -28,10 +28,12 @@ const getData = async () => {
 
     // 3. PINTAR EN LA VISTA
 
+    const baseUrl = "https://cataas.com/cat?"
+
     app.innerHTML = /* HTML */ `
       <div>
         <h1>Hello Cat!</h1>
-        <img src="https://cataas.com/${data.url}" />
+        <img src=" ${baseUrl}${data.url}" />
       </div>
     `
   } catch (error) {
